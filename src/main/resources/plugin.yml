@@ -1,0 +1,14 @@
+name: FakePluginscomand
+version: '1.0'
+main: de.fakePluginscomand.FakePluginscomand
+api-version: '1.21'
+authors: [ Why_Luca ]
+website: https://ko-fi.com/why_luca , https://discord.com/invite/D8DtJF2Jye , https://modrinth.com/user/Why_Luca
+
+# No commands are registered on purpose. Every command is handled through
+# events, so nothing extra shows up in the command tree or in tab completion.
+
+permissions:
+  fakeplugins.admin:
+    description: Allows seeing the real plugins and plugin information
+    default: op
